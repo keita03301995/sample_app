@@ -70,6 +70,12 @@ class User < ActiveRecord::Base
     reset_sent_at < 2.hours.ago
   end
 
+  # 試作feedの定義
+  # 完全な実装は１２章
+  def feed
+    Micropost.where("user_id = ?",id)
+  end
+
   private
 
     # メールアドレスをすべて小文字にする
