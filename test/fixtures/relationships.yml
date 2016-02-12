@@ -1,0 +1,15 @@
+one:
+  follower: keita
+  followed: lana
+
+two:
+  follower: keita
+  followed: mallory
+
+three:
+  follower: lana
+  followed: keita
+
+four:
+  follower: archer
+  followed: keita
